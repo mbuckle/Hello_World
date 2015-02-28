@@ -1,3 +1,4 @@
+# Define a function to reverse a sentence
 def reverse_sentence(old_sentence):
 	print old_sentence
 	new_sentence = ""
