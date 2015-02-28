@@ -12,6 +12,7 @@ def reverse_sentence(old_sentence):
 			new_sentence = old_sentence[saved_index:index+1]+" "+new_sentence
 	print new_sentence
 
+# Prompt the user to enter a sentence
 old_sentence = raw_input("Enter a sentence: ")
 reverse_sentence(old_sentence)
 
